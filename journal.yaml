@@ -365,3 +365,14 @@
   people: [Yuren Ju, Chialin Shih, 大姊, 二姊, 岳父, 大姊夫, 二姊夫]
   startDate: 2018-07-07
   endDate: 2018-07-14
+
+- country: 越南
+  cities:
+    - 胡志明市
+    - 美奈
+  people: [Yuren Ju, Chialin Shih]
+  startDate: 2018-09-21
+  endDate: 2018-09-25
+  resources:
+    albums:
+      - https://photos.app.goo.gl/1D3iH45oeQxqXtcd7
