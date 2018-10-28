@@ -1,23 +1,23 @@
 {
   "name": "journal",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "validate": "js-yaml src/journal.yaml",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yurenju/journal.git"
-  },
-  "author": "Yuren Ju <yurenju@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yurenju/journal/issues"
-  },
-  "homepage": "https://github.com/yurenju/journal#readme",
+  "private": true,
   "dependencies": {
-    "js-yaml": "^3.12.0"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts-ts": "3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.8",
+    "@types/node": "^10.12.0",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "typescript": "^3.1.3"
   }
 }
