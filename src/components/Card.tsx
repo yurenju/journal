@@ -1,6 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 export interface ICardProps {
   image: string;
   date: Date;
@@ -11,6 +13,12 @@ export interface ICardProps {
 export interface ICardState {}
 
 export default class ICard extends React.Component<ICardProps, ICardState> {
+  public static defaultProps: Partial<ICardProps> = {
+    date: new Date(),
+    country: 'Greece',
+    cities: ['Athens', 'Santorini']
+  };
+
   constructor(props: ICardProps) {
     super(props);
 
@@ -42,9 +50,22 @@ export default class ICard extends React.Component<ICardProps, ICardState> {
       padding: 1rem;
     `;
 
+    const cities = this.props.cities.join(', ');
+
     return (
       <Container>
-        <Info>Hi</Info>
+        <Info>
+          <div>
+            <FontAwesomeIcon icon="calendar-alt" />
+            &nbsp;
+            {this.props.date.getFullYear()}
+          </div>
+          <div>
+            <FontAwesomeIcon icon="map-marked-alt" />
+            &nbsp;
+            {this.props.country}, {cities}
+          </div>
+        </Info>
       </Container>
     );
   }

@@ -4,10 +4,13 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import styled from 'styled-components';
+import { loadFontAwesome } from '../utils';
 
 import { Button, Welcome } from '@storybook/react/demo';
 import Card from '../components/Card';
 import santorini from './santorini.jpg';
+
+loadFontAwesome();
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
