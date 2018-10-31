@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "10"
+
+jobs:
+  include:
+    - name: "lint"
+      script: npm run lint
+      if: type = pull_request
+    - name: "unit test"
+      script: npm run test
+      if: type = pull_request
+    - stage: deploy
+      if: branch = master AND type = push
+      script: npm run deploy
