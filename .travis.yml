@@ -4,12 +4,13 @@ node_js:
 
 jobs:
   include:
-    - name: "lint"
+    - name: lint
       script: npm run lint
       if: type = pull_request
-    - name: "unit test"
+    - name: unit test
       script: npm run test
       if: type = pull_request
-    - stage: deploy
+    - name: deploy
+      stage: deploy
       if: branch = master AND type = push
       script: npm run deploy
