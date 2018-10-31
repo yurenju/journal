@@ -27,6 +27,7 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.1",
     "@babel/core": "^7.1.2",
     "@storybook/addon-actions": "^4.0.0-rc.6",
     "@storybook/addon-info": "^3.4.11",
