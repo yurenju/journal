@@ -4,19 +4,17 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export interface ICardProps {
-  image: string;
-  date: Date;
+  cities: string[];
   country: string;
-  cities: Array<string>;
+  date: Date;
+  image: string;
 }
 
-export interface ICardState {}
-
-export default class ICard extends React.Component<ICardProps, ICardState> {
+export default class ICard extends React.Component<ICardProps> {
   public static defaultProps: Partial<ICardProps> = {
-    date: new Date(),
+    cities: ['Athens', 'Santorini'],
     country: 'Greece',
-    cities: ['Athens', 'Santorini']
+    date: new Date()
   };
 
   constructor(props: ICardProps) {
