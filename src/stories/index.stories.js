@@ -19,17 +19,45 @@ storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
 ));
 
-storiesOf('Card', module).add('Regular', () => {
-  const StyledBlock = styled.div`
-    width: 10rem;
-  `;
+storiesOf('Card', module)
+  .add('Regular', () => {
+    const StyledBlock = styled.div`
+      width: 10rem;
+      margin-bottom: 1rem;
+    `;
 
-  return (
-    <StyledBlock>
-      <Card image={santorini} />
-    </StyledBlock>
-  );
-});
+    return (
+      <div>
+        <StyledBlock>
+          <Card inner={false} images={[santorini]} />
+        </StyledBlock>
+        <StyledBlock>
+          <Card images={[santorini]} />
+        </StyledBlock>
+      </div>
+    );
+  })
+  .add('Multiple Images', () => {
+    const StyledBlock = styled.div`
+      width: 10rem;
+      margin-bottom: 1rem;
+    `;
+
+    const cards = new Array(6).fill(0).map((_, index) => {
+      const num = index + 1;
+      const images = new Array(num)
+        .fill(0)
+        .map((_, index) => `https://fakeimg.pl/350x200/?text=${index}`);
+
+      return (
+        <StyledBlock key={index}>
+          <Card inner={false} images={images} />
+        </StyledBlock>
+      );
+    });
+
+    return <div>{cards}</div>;
+  });
 
 storiesOf('JournalMap', module).add('default', () => {
   const geoCountries = {
