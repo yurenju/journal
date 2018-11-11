@@ -4,9 +4,8 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import styled from 'styled-components';
-import { loadFontAwesome } from '../utils';
 
-import { Button, Welcome } from '@storybook/react/demo';
+import { loadFontAwesome } from '../utils';
 import Card from '../components/Card';
 import JournalMap from '../components/JournalMap';
 import santorini from './santorini.jpg';
@@ -15,21 +14,45 @@ import angola from './assets/angola.json';
 
 loadFontAwesome();
 
-storiesOf('Welcome', module).add('to Storybook', () => (
-  <Welcome showApp={linkTo('Button')} />
-));
+storiesOf('Card', module)
+  .add('Regular', () => {
+    const StyledBlock = styled.div`
+      width: 10rem;
+      margin-bottom: 1rem;
+    `;
 
-storiesOf('Card', module).add('Regular', () => {
-  const StyledBlock = styled.div`
-    width: 10rem;
-  `;
+    return (
+      <div>
+        <StyledBlock>
+          <Card inner={false} images={[santorini]} />
+        </StyledBlock>
+        <StyledBlock>
+          <Card images={[santorini]} />
+        </StyledBlock>
+      </div>
+    );
+  })
+  .add('Multiple Images', () => {
+    const StyledBlock = styled.div`
+      width: 10rem;
+      margin-bottom: 1rem;
+    `;
 
-  return (
-    <StyledBlock>
-      <Card image={santorini} />
-    </StyledBlock>
-  );
-});
+    const cards = new Array(6).fill(0).map((_, i) => {
+      const num = i + 1;
+      const images = new Array(num)
+        .fill(0)
+        .map((__, j) => `https://fakeimg.pl/350x200/?text=${j}`);
+
+      return (
+        <StyledBlock key={i}>
+          <Card inner={false} images={images} />
+        </StyledBlock>
+      );
+    });
+
+    return <div>{cards}</div>;
+  });
 
 storiesOf('JournalMap', module).add('default', () => {
   const geoCountries = {
@@ -39,15 +62,3 @@ storiesOf('JournalMap', module).add('default', () => {
 
   return <JournalMap countries={geoCountries} />;
 });
-
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
-  ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  ));
