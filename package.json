@@ -53,5 +53,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/map/**/*",
+      "!src/stories/**/*",
+      "!src/index.tsx",
+      "!src/utils.ts",
+      "!src/registerServiceWorker.ts"
+    ]
+  }
 }
