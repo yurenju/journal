@@ -8,9 +8,17 @@ jobs:
       script: npm run lint
       if: type = pull_request
     - name: unit test
-      script: npm run test
+      script:
+        - npm run test -- --coverage
+        - npm run push-coverage
       if: type = pull_request
     - name: deploy
-      stage: deploy
+      stage: release
       if: branch = master AND type = push
       script: npm run deploy
+    - name: coverage
+      stage: release
+      if: branch = master AND type = push
+      script:
+        - npm run test -- --coverage
+        - npm run push-coverage
