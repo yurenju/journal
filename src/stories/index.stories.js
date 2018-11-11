@@ -38,14 +38,14 @@ storiesOf('Card', module)
       margin-bottom: 1rem;
     `;
 
-    const cards = new Array(6).fill(0).map((_, index) => {
-      const num = index + 1;
+    const cards = new Array(6).fill(0).map((_, i) => {
+      const num = i + 1;
       const images = new Array(num)
         .fill(0)
-        .map((_, index) => `https://fakeimg.pl/350x200/?text=${index}`);
+        .map((__, j) => `https://fakeimg.pl/350x200/?text=${j}`);
 
       return (
-        <StyledBlock key={index}>
+        <StyledBlock key={i}>
           <Card inner={false} images={images} />
         </StyledBlock>
       );

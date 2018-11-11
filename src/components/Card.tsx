@@ -92,20 +92,6 @@ export default class ICard extends React.Component<ICardProps> {
     this.state = {};
   }
 
-  private renderImages() {
-    return this.props.images.map((image, index, arr) => {
-      let height = this.props.height;
-      if (arr.length >= 4) {
-        height = `calc(${this.props.height} / ${index === 3 ? 5 : 2} - 2px)`;
-      }
-      return (
-        <PhotoItem key={index} height={height} image={image}>
-          {' '}
-        </PhotoItem>
-      );
-    });
-  }
-
   public render() {
     const Outer = styled.div`
       position: relative;
@@ -138,5 +124,19 @@ export default class ICard extends React.Component<ICardProps> {
         </Info>
       </Outer>
     );
+  }
+
+  private renderImages() {
+    return this.props.images.map((image, index, arr) => {
+      let height = this.props.height;
+      if (arr.length >= 4) {
+        height = `calc(${this.props.height} / ${index === 3 ? 5 : 2} - 2px)`;
+      }
+      return (
+        <PhotoItem key={index} height={height} image={image}>
+          {' '}
+        </PhotoItem>
+      );
+    });
   }
 }
