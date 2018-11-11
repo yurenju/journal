@@ -26,7 +26,8 @@
     "eject": "react-scripts-ts eject",
     "lint": "tslint -p tsconfig.json",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "push-coverage": "codecov"
   },
   "devDependencies": {
     "@alrra/travis-scripts": "^3.0.1",
@@ -43,6 +44,7 @@
     "@types/styled-components": "^4.0.3",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.4",
+    "codecov": "^3.1.0",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "typescript": "^3.1.3"
   },
