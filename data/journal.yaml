@@ -531,3 +531,14 @@
     - type: album
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157699002982442
+
+- country: 日本
+  cities:
+    - 廣島
+  people: [Yuren Ju, Chialin Shih]
+  startDate: 2018-12-28
+  endDate: 2019-01-01
+  resources:
+    - type: album
+      provider: flickr
+      url: https://www.flickr.com/photos/46509322@N00/sets/72157703843412211
