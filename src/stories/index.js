@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import styled from 'styled-components';
 
 import { loadFontAwesome } from '../utils';
-import Card from '../components/Card';
+import { Card } from '../components/Card';
 import JournalMap from '../components/JournalMap';
 import santorini from './santorini.jpg';
 import afghanistan from './assets/afghanistan.json';

@@ -32,7 +32,7 @@ export interface ICardProps extends IInner, IRadius, IHeight {
   images: string[];
 }
 
-const Info = styled.div<IInfo>`
+export const Info = styled.div<IInfo>`
   height: 30%;
   padding: 0 1rem 0 1rem;
   color: ${props => (props.inner ? 'white' : 'black')};
@@ -44,11 +44,7 @@ const Info = styled.div<IInfo>`
       border-bottom-left-radius: ${props.radius};
       border-bottom-right-radius: ${props.radius};
       bottom: 0;
-      background-image: linear-gradient(
-        to bottom,
-        transparent,
-        rgba(0, 0, 0, 0.5)
-      );
+      background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
     `};
 `;
 
@@ -67,7 +63,7 @@ const Container = styled.div<IContainer>`
   position: relative;
 `;
 
-const PhotoItem = styled.div<IImageItem>`
+export const PhotoItem = styled.div<IImageItem>`
   background-image: url(${props => props.image});
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,9 +72,10 @@ const PhotoItem = styled.div<IImageItem>`
   margin: 1px;
 `;
 
-export default class ICard extends React.Component<ICardProps> {
+export class Card extends React.Component<ICardProps> {
   public static defaultProps: Partial<ICardProps> = {
     cities: ['Athens', 'Santorini'],
+    images: [],
     country: 'Greece',
     date: new Date(),
     inner: true,
@@ -103,23 +100,19 @@ export default class ICard extends React.Component<ICardProps> {
 
     return (
       <Outer>
-        <Container
-          radius={this.props.radius}
-          height={this.props.height}
-          inner={this.props.inner}
-        >
+        <Container radius={this.props.radius} height={this.props.height} inner={this.props.inner}>
           {this.renderImages()}
         </Container>
         <Info radius={this.props.radius} inner={this.props.inner}>
           <div>
             <FontAwesomeIcon icon="calendar-alt" />
             &nbsp;
-            {this.props.date.getFullYear()}
+            <span className="year">{this.props.date.getFullYear()}</span>
           </div>
           <div>
             <FontAwesomeIcon icon="map-marked-alt" />
             &nbsp;
-            {this.props.country}, {cities}
+            {this.props.country}, <span className="cities">{cities}</span>
           </div>
         </Info>
       </Outer>
@@ -133,7 +126,7 @@ export default class ICard extends React.Component<ICardProps> {
         height = `calc(${this.props.height} / ${index === 3 ? 5 : 2} - 2px)`;
       }
       return (
-        <PhotoItem key={index} height={height} image={image}>
+        <PhotoItem className="image" key={index} height={height} image={image}>
           {' '}
         </PhotoItem>
       );
