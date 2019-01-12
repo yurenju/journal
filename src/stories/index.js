@@ -1,8 +1,6 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
 import styled from 'styled-components';
 
 import { loadFontAwesome } from '../utils';
@@ -40,9 +38,7 @@ storiesOf('Card', module)
 
     const cards = new Array(6).fill(0).map((_, i) => {
       const num = i + 1;
-      const images = new Array(num)
-        .fill(0)
-        .map((__, j) => `https://fakeimg.pl/350x200/?text=${j}`);
+      const images = new Array(num).fill(0).map((__, j) => `https://fakeimg.pl/350x200/?text=${j}`);
 
       return (
         <StyledBlock key={i}>
