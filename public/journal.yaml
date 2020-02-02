@@ -10,8 +10,8 @@
       provider: blogger
       url: https://yurenju.blogspot.com/search/label/%E9%A6%99%E6%B8%AF
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157613754913026
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/857baa08f60a45269648ae8b0001d4e1
 
 - countries:
     - 印尼
@@ -25,8 +25,8 @@
       provider: blogger
       url: https://yurenju.blogspot.com/search/label/%E5%B3%87%E9%87%8C%E5%B3%B6
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157622102743423
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/a40330e89bc6448799f45a594c1e123e
 
 - countries:
     - 土耳其
@@ -45,44 +45,8 @@
       provider: blogger
       url: https://yurenju.blogspot.com/search/label/%E5%9C%9F%E8%80%B3%E5%85%B6
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157629168497048
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150556835471631.368030.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150573617806631.370625.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150573918421631.370663.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150575514081631.370879.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150576575421631.371031.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150577507481631.371141.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10150578088391631.371225.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10151014172366631.400939.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10151015026646631.401032.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/6b43678b6b9c4ca1b505d373561b5f02
 
 - countries:
     - 中國
@@ -104,8 +68,8 @@
   endDate: 2012-11-09
   resources:
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157672249864697
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/a7daf7faa3014b4c970b635ad983a8e4
 
 - countries:
     - 德國
@@ -114,12 +78,9 @@
   people: [Yuren Ju]
   startDate: 2013-01-08
   resources:
-    - type: article
-      provider: 500px
-      url: https://500px.com/yurenju/stories/73275/berlin-work-week
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157702065818254
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/4c66316514844e89a3d6c2f9bf5af5c3
 
 - countries:
     - 泰國
@@ -128,10 +89,6 @@
   people: [Yuren Ju, Chialin Shih]
   startDate: 2013-03-15
   endDate: 2013-03-18
-  resources:
-    - type: article
-      provider: 500px
-      url: https://500px.com/yurenju/stories/82703
 
 - countries:
     - 日本
@@ -141,12 +98,9 @@
   startDate: 2013-03-30
   endDate: 2013-04-05
   resources:
-    - type: article
-      provider: 500px
-      url: https://500px.com/yurenju/stories/84121/
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157674341254338
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/aaec3f66914647edb76cf250944b14e2
 
 - countries:
     - 西班牙
@@ -157,12 +111,9 @@
   startDate: 2013-04-13
   endDate: 2013-04-22
   resources:
-    - type: article
-      provider: 500px
-      url: https://500px.com/yurenju/stories/86663/madrid-work-week
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157696414844420
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/44c8942caef64d1298b77801d0d258f2
 
 - countries:
     - 挪威
@@ -172,12 +123,9 @@
   startDate: 2013-09-07
   endDate: 2013-09-15
   resources:
-    - type: article
-      provider: 500px
-      url: https://500px.com/yurenju/stories/1095874/oslo-work-week
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157700712050341
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/a7bcdb2f53304bc5888cf4297683c255
 
 - countries:
     - 美國
@@ -187,12 +135,9 @@
   startDate: 2013-10-03
   endDate: 2013-10-12
   resources:
-    - type: article
-      provider: 500px
-      url: http://500px.com/yurenju/stories/3195082/california
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157699039318522
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/5a3ffff668894291bbe90a2a16863b0b
 
 - countries:
     - 捷克 (Czech)
@@ -212,16 +157,9 @@
     - type: article
       provider: medium
       url: https://medium.com/@yurenju/a11f91ad919d
-    - type: article
-      provider: 500px
-      url: http://500px.com/yurenju/stories/3942451/prague-cesky-krumlov
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157644187458437
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/yurenju/media_set?set=a.10152098452191631.1073741835.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/79a5c38c85084ff7a28225d6fbab69f9
 
 - countries:
     - 日本
@@ -235,12 +173,8 @@
       provider: medium
       url: https://medium.com/@yurenju/52ec9a35fc96
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157646648950439
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/yurenju/media_set?set=a.10152313313446631.1073741838.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/75d86003bbd44a1db070cc82154d7979
 
 - countries:
     - 日本
@@ -265,16 +199,8 @@
       provider: medium
       url: https://medium.com/@yurenju/2-1dea40be5c2c
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157648445684668
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10152396469396631.1073741839.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10152408351701631.1073741840.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/9262405c3c9a4a6abd20dc3b6f585445
 
 - countries:
     - 希臘
@@ -299,20 +225,8 @@
       provider: medium
       url: https://medium.com/@yurenju/a5915bff9409
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157652103162939
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10152766499886631.1073741843.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10152777843171631.1073741844.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10152811215271631.1073741845.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/e96059565d36420f9617d628db10b5a8
 
 - countries:
     - 日本
@@ -330,12 +244,8 @@
       provider: medium
       url: https://medium.com/@yurenju/926418966dc8
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157655585123294
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153038675316631.1073741848.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/86b012e7a44c488a9f294a8b5ac8d3ba
 
 - countries:
     - 柬埔寨
@@ -356,24 +266,8 @@
       provider: adobe-spark
       url: https://spark.adobe.com/page/YKckX/
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157664099794764
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153400976546631.1073741858.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153347697211631.1073741855.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153425270411631.1073741859.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153426262406631.1073741860.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/bd5c1c43d3e94442b70a646eb907cef7
 
 - countries:
     - 南韓
@@ -384,8 +278,8 @@
   endDate: 2016-06-12
   resources:
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157672173838187
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/e9e2bc5cd1074543908455b2452753b7
     - type: article
       provider: medium
       url: https://medium.com/@yurenju/ce11d0f72445
@@ -398,13 +292,14 @@
   people: [Yuren Ju]
   startDate: 2016-10-30
   endDate: 2016-11-04
+  description: 受到 g0v 邀請到加州分享割闌尾計畫，也參加 code for america summit
   resources:
     - type: article
       provider: medium
       url: https://medium.com/@yurenju/65f245d5330e
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157700703137651
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/ab336301615c491f8e8180d5accc22ec
 
 - countries:
     - 日本
@@ -431,16 +326,8 @@
       provider: medium
       url: https://medium.com/@yurenju/e440a98a282c
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157673323999873
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153953018911631.1073741864.700771630&type=3
-      private: true
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10153955967846631.1073741865.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/bd6a8c90480d4b38842e43c6e38378b9
 
 - countries:
     - 日本
@@ -452,12 +339,8 @@
   endDate: 2017-05-20
   resources:
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157674322195678
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10154404143996631.1073741872.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/c8b9439277da4373ba5569fbf8d59141
 
 - countries:
     - 日本
@@ -471,8 +354,8 @@
       provider: medium
       url: https://medium.com/@yurenju/6bde3cde975d
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157702026348944
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/860881f6c90141d0acd4716b48936193
 
 - countries:
     - 克羅埃西亞
@@ -490,12 +373,8 @@
       provider: medium
       url: https://medium.com/@yurenju/52342afcafe7
     - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10154787545111631.1073741876.700771630&type=3
-      private: true
-    - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157700674633951
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/70f6260572d34adeac2e916bd786b1fb
 
 - countries:
     - 泰國
@@ -509,12 +388,8 @@
       provider: medium
       url: https://medium.com/@yurenju/12e6e1fe092f
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157702025492964
-    - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10154960409086631.1073741877.700771630&type=3
-      private: true
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/3f952a3627724d318b979365e67f5082
 
 - countries:
     - 馬來西亞
@@ -528,12 +403,8 @@
       provider: medium
       url: https://medium.com/@yurenju/db3dfd3b27f6
     - type: album
-      provider: facebook
-      url: https://www.facebook.com/media/set/?set=a.10155184109126631.1073741878.700771630&type=3
-      private: true
-    - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157699004506812
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/8e5c8666ec32418dab1553ca9146392f
 
 - countries:
     - 日本
@@ -544,8 +415,8 @@
   endDate: 2018-07-14
   resources:
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157674304260518
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/10688a8c25b640268635c551b24859a0
 
 - countries:
     - 越南
@@ -557,8 +428,8 @@
   endDate: 2018-09-25
   resources:
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157699002982442
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/57e065f047d14c438b3fcfc6efbe5494
 
 - countries:
     - 日本
@@ -569,8 +440,8 @@
   endDate: 2019-01-01
   resources:
     - type: album
-      provider: flickr
-      url: https://www.flickr.com/photos/46509322@N00/sets/72157703843412211
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/d263a6eb0cb14c92b2ae7a8425d65f3b
 
 - countries:
     - 日本
