@@ -1,4 +1,5 @@
-- country: 中國
+- countries:
+    - 中國
   people: [Yuren Ju, Chialin Shih, Znikang, Kyozi, Kunhui, Taiten]
   cities:
     - 香港
@@ -12,7 +13,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157613754913026
 
-- country: 印尼
+- countries:
+    - 印尼
   people: [Yuren Ju, Chialin Shih]
   cities:
     - 峇里島
@@ -26,7 +28,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157622102743423
 
-- country: 土耳其
+- countries:
+    - 土耳其
   cities:
     - 伊斯坦堡 (Istanbul)
     - 蕃紅花城 (Safranbolu)
@@ -81,7 +84,8 @@
       url: https://www.facebook.com/media/set/?set=a.10151015026646631.401032.700771630&type=3
       private: true
 
-- country: 中國
+- countries:
+    - 中國
   cities:
     - 澳門 (Macau)
   people: [Yuren Ju, Chialin Shih]
@@ -91,7 +95,8 @@
     albums:
       - https://www.facebook.com/yurenju/media_set?set=a.10150958888986631.395490.700771630&type=3
 
-- country: 美國
+- countries:
+    - 美國
   cities:
     - 舊金山 (San Francisco)
   people: [Yuren Ju]
@@ -102,7 +107,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157672249864697
 
-- country: 德國
+- countries:
+    - 德國
   cities:
     - 柏林 (Berlin)
   people: [Yuren Ju]
@@ -115,7 +121,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157702065818254
 
-- country: 泰國
+- countries:
+    - 泰國
   citires:
     - 曼谷 (Bankok)
   people: [Yuren Ju, Chialin Shih]
@@ -126,7 +133,8 @@
       provider: 500px
       url: https://500px.com/yurenju/stories/82703
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 京都
   people: [Yuren Ju, Chialin Shih]
@@ -140,7 +148,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157674341254338
 
-- country: 西班牙
+- countries:
+    - 西班牙
   cities:
     - 馬德里 (Madrid)
     - 塞哥維亞 (Segovia)
@@ -155,7 +164,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157696414844420
 
-- country: 挪威
+- countries:
+    - 挪威
   cities:
     - 奧斯陸 (Oslo)
   people: [Yuren Ju]
@@ -169,7 +179,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157700712050341
 
-- country: 美國
+- countries:
+    - 美國
   cities:
     - 聖塔克拉拉 (Santa Clara)
   people: [Yuren Ju, Chialin Shih]
@@ -183,7 +194,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157699039318522
 
-- country: 捷克 (Czech)
+- countries:
+    - 捷克 (Czech)
   cities:
     - 布拉格 (Praha)
     - 契斯基庫倫隆 (Český Krumlov)
@@ -211,7 +223,8 @@
       url: https://www.facebook.com/yurenju/media_set?set=a.10152098452191631.1073741835.700771630&type=3
       private: true
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 沖繩 (Okinawa)
   people: [Yuren Ju, Chialin Shih]
@@ -229,7 +242,8 @@
       url: https://www.facebook.com/yurenju/media_set?set=a.10152313313446631.1073741838.700771630&type=3
       private: true
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 名古屋
     - 松本
@@ -262,7 +276,8 @@
       url: https://www.facebook.com/media/set/?set=a.10152408351701631.1073741840.700771630&type=3
       private: true
 
-- country: 希臘
+- countries:
+    - 希臘
   cities:
     - 雅典 (Athens)
     - 邁泰奧拉 (Meteora)
@@ -299,7 +314,8 @@
       url: https://www.facebook.com/media/set/?set=a.10152811215271631.1073741845.700771630&type=3
       private: true
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 日光
     - 東京
@@ -321,7 +337,8 @@
       url: https://www.facebook.com/media/set/?set=a.10153038675316631.1073741848.700771630&type=3
       private: true
 
-- country: 柬埔寨
+- countries:
+    - 柬埔寨
   cities:
     - 金邊
     - 暹粒
@@ -358,7 +375,8 @@
       url: https://www.facebook.com/media/set/?set=a.10153426262406631.1073741860.700771630&type=3
       private: true
 
-- country: 南韓
+- countries:
+    - 南韓
   cities:
     - 首爾
   people: [Yuren Ju, Chialin Shih]
@@ -372,7 +390,8 @@
       provider: medium
       url: https://medium.com/@yurenju/ce11d0f72445
 
-- country: 美國
+- countries:
+    - 美國
   cities:
     - 舊金山
     - 奧克蘭 (Oakland)
@@ -387,7 +406,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157700703137651
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 東京
   people: [Yuren Ju]
@@ -398,7 +418,8 @@
       provider: medium
       url: https://medium.com/@yurenju/805ec8918e7e
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 京都
     - 城崎
@@ -421,7 +442,8 @@
       url: https://www.facebook.com/media/set/?set=a.10153955967846631.1073741865.700771630&type=3
       private: true
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 靜岡
     - 東京
@@ -437,7 +459,8 @@
       url: https://www.facebook.com/media/set/?set=a.10154404143996631.1073741872.700771630&type=3
       private: true
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 九州
   people: [Yuren Ju]
@@ -451,7 +474,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157702026348944
 
-- country: 克羅埃西亞
+- countries:
+    - 克羅埃西亞
   cities:
     - 杜布羅夫尼克 (Dubrovnik)
     - 斯普利特 (Split)
@@ -473,7 +497,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157700674633951
 
-- country: 泰國
+- countries:
+    - 泰國
   cities:
     - 清邁
   people: [Yuren Ju, Chialin Shih]
@@ -491,7 +516,8 @@
       url: https://www.facebook.com/media/set/?set=a.10154960409086631.1073741877.700771630&type=3
       private: true
 
-- country: 馬來西亞
+- countries:
+    - 馬來西亞
   cities:
     - 檳城
   people: [Yuren Ju, Chialin Shih]
@@ -509,7 +535,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157699004506812
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 東京
   people: [Yuren Ju, Chialin Shih, 大姊, 二姊, 岳父, 大姊夫, 二姊夫]
@@ -520,7 +547,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157674304260518
 
-- country: 越南
+- countries:
+    - 越南
   cities:
     - 胡志明市
     - 美奈
@@ -532,7 +560,8 @@
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157699002982442
 
-- country: 日本
+- countries:
+    - 日本
   cities:
     - 廣島
   people: [Yuren Ju, Chialin Shih]
