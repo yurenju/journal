@@ -571,3 +571,58 @@
     - type: album
       provider: flickr
       url: https://www.flickr.com/photos/46509322@N00/sets/72157703843412211
+
+- countries:
+    - 日本
+  cities:
+    - 福岡
+    - 佐賀縣武雄市
+    - 佐賀縣鹿島市
+    - 長崎
+  people: [Yuren Ju, Chialin Shih]
+  startDate: 2019-03-21
+  endDate: 2019-03-24
+  resources:
+    - type: album
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/440f328499104444b4015b58442b9ffd
+
+- countries:
+    - 日本
+  cities:
+    - 大阪
+    - 京都
+    - 宇治
+    - 神戶
+    - 和歌山縣田邊市
+    - 三重縣伊勢市
+  people: [Yuren Ju, Chialin Shih]
+  startDate: 2019-07-31
+  endDate: 2019-08-14
+  description: 從 AMIS 離職後安排的旅行，主要是去爬熊野古道，前段時間會跟 Chialin 一起走。
+  resources:
+    - type: album
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/61c1d4e5f17d44d49ab854841b4d1fff
+
+- countries:
+    - 荷蘭
+    - 摩洛哥
+  cities:
+    - 阿姆斯特丹 (Amsterdam)
+    - 小孩堤防 (Kinderdijk)
+    - 馬拉喀什 (Marrakesh)
+    - 埃本哈杜 (Aït Benhaddou)
+    - 梅爾祖卡 (Merzouga)
+    - 費茲 (Fez)
+    - 佛露比里斯 (Volubilis)
+    - 舍夫沙萬 (Chefchaouen)
+    - 卡薩布蘭卡 (Casabalanca)
+  people: [Yuren Ju, Chialin Shih, 巧彣, Kiev, Heidi]
+  startDate: 2019-09-05
+  endDate: 2019-09-20
+  description: 巧彣安排的旅程，其中一段去了摩洛哥，後面大多天數都待在阿姆斯特丹
+  resources:
+    - type: album
+      provider: lightroom
+      url: https://lightroom.adobe.com/shares/a52a66edd5194074b6997fe547303a27
